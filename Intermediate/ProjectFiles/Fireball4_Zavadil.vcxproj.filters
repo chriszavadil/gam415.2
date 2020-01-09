@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\Fireball4_Zavadil.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{FCD959C7-C014-40F7-9B5B-5CDA110677F6}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Fireball4_Zavadil.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\Fireball4_ZavadilEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{497B1ED9-544E-426B-B721-74E80528B68A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Plugins">
+			<UniqueIdentifier>{65AB4FD4-1C2C-4E2E-96C4-C14CE92B8418}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ComputeShader">
+			<UniqueIdentifier>{9BAD6C27-6DFF-4BED-884F-2E4060C5657A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ComputeShader\Source">
+			<UniqueIdentifier>{56F8C3A5-40C3-42E3-88C7-1B9B32F9BE71}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ComputeShader\Source\ComputeShader">
+			<UniqueIdentifier>{30A71E9E-8934-4B7D-ACBF-8B084D1A21B8}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\ComputeShader\Source\ComputeShader\ComputeShader.Build.cs">
+			<Filter>Plugins\ComputeShader\Source\ComputeShader</Filter>
+		</None >
+		<Filter Include="Plugins\ComputeShader\Source\ComputeShader\Private">
+			<UniqueIdentifier>{98C2B3F7-CF59-43C3-BF24-662823DF57EE}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\ComputeShader\Source\ComputeShader\Private\ComputeShaderDeclaration.cpp">
+			<Filter>Plugins\ComputeShader\Source\ComputeShader\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\ComputeShader\Source\ComputeShader\Private\ComputeShaderDeclaration.h">
+			<Filter>Plugins\ComputeShader\Source\ComputeShader\Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\ComputeShader\Source\ComputeShader\Private\ComputeShaderPrivatePCH.h">
+			<Filter>Plugins\ComputeShader\Source\ComputeShader\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\ComputeShader\Source\ComputeShader\Private\ComputeShaderUsageExample.cpp">
+			<Filter>Plugins\ComputeShader\Source\ComputeShader\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\ComputeShader\Source\ComputeShader\Public">
+			<UniqueIdentifier>{DE170D25-B924-4675-A252-D3B98311332E}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\ComputeShader\Source\ComputeShader\Public\ComputeShaderUsageExample.h">
+			<Filter>Plugins\ComputeShader\Source\ComputeShader\Public</Filter>
+		</ClInclude >
+		<None Include="..\..\Plugins\ComputeShader\ComputeShader.uplugin">
+			<Filter>Plugins\ComputeShader</Filter>
+		</None >
+		<Filter Include="Plugins\ComputeShader\Shaders">
+			<UniqueIdentifier>{D16C3E33-1DE5-46D4-A2D3-FB22DCEEBFCB}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\ComputeShader\Shaders\Private">
+			<UniqueIdentifier>{1FBE225C-3CE7-4634-91CD-E91373010AD2}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\ComputeShader\Shaders\Private\Common.ush">
+			<Filter>Plugins\ComputeShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\ComputeShader\Shaders\Private\CommonViewUniformBuffer.ush">
+			<Filter>Plugins\ComputeShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\ComputeShader\Shaders\Private\ComputeShaderExample.usf">
+			<Filter>Plugins\ComputeShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\ComputeShader\Shaders\Private\Definitions.usf">
+			<Filter>Plugins\ComputeShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\ComputeShader\Shaders\Private\FastMath.ush">
+			<Filter>Plugins\ComputeShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\ComputeShader\Shaders\Private\InstancedStereo.ush">
+			<Filter>Plugins\ComputeShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\ComputeShader\Shaders\Private\Random.ush">
+			<Filter>Plugins\ComputeShader\Shaders\Private</Filter>
+		</None >
+		<Filter Include="Plugins\PixelShader">
+			<UniqueIdentifier>{132B8E82-37C0-44D9-9A98-92B70C137537}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PixelShader\PixelShader.uplugin">
+			<Filter>Plugins\PixelShader</Filter>
+		</None >
+		<Filter Include="Plugins\PixelShader\Shaders">
+			<UniqueIdentifier>{54E28FA8-656F-44B3-86B9-869A8556CDE1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PixelShader\Shaders\Private">
+			<UniqueIdentifier>{179AB274-0B0A-4075-AC4B-0DBE1E580198}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PixelShader\Shaders\Private\Common.ush">
+			<Filter>Plugins\PixelShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\PixelShader\Shaders\Private\CommonViewUniformBuffer.ush">
+			<Filter>Plugins\PixelShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\PixelShader\Shaders\Private\Definitions.usf">
+			<Filter>Plugins\PixelShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\PixelShader\Shaders\Private\FastMath.ush">
+			<Filter>Plugins\PixelShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\PixelShader\Shaders\Private\InstancedStereo.ush">
+			<Filter>Plugins\PixelShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\PixelShader\Shaders\Private\PixelShaderExample.usf">
+			<Filter>Plugins\PixelShader\Shaders\Private</Filter>
+		</None >
+		<None Include="..\..\Plugins\PixelShader\Shaders\Private\Random.ush">
+			<Filter>Plugins\PixelShader\Shaders\Private</Filter>
+		</None >
+		<Filter Include="Plugins\RuntimeMeshComponent">
+			<UniqueIdentifier>{AAABF780-6FA5-4BEE-BBAB-E33312FC7514}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\RuntimeMeshComponent\RuntimeMeshComponent.uplugin">
+			<Filter>Plugins\RuntimeMeshComponent</Filter>
+		</None >
+		<Filter Include="Plugins\RuntimeMeshComponent\Resources">
+			<UniqueIdentifier>{06B341EF-F5CF-4C78-9707-D9FCDFB8700D}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\RuntimeMeshComponent\Resources\Icon128.png">
+			<Filter>Plugins\RuntimeMeshComponent\Resources</Filter>
+		</None >
+		<Filter Include="Plugins\PixelShader\Source">
+			<UniqueIdentifier>{B19E2CB7-64A6-4861-B7D1-F52189D6F1A7}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\PixelShader\Source\PixelShader">
+			<UniqueIdentifier>{0A6605A1-82EC-4EF1-A7AA-2F45E310538B}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\PixelShader\Source\PixelShader\PixelShader.Build.cs">
+			<Filter>Plugins\PixelShader\Source\PixelShader</Filter>
+		</None >
+		<Filter Include="Plugins\PixelShader\Source\PixelShader\Private">
+			<UniqueIdentifier>{10DD1C15-C12F-4D7F-876C-6846E5F3C7AB}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\PixelShader\Source\PixelShader\Private\PixelShaderDeclaration.cpp">
+			<Filter>Plugins\PixelShader\Source\PixelShader\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\PixelShader\Source\PixelShader\Private\PixelShaderDeclaration.h">
+			<Filter>Plugins\PixelShader\Source\PixelShader\Private</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\PixelShader\Source\PixelShader\Private\PixelShaderPrivatePCH.h">
+			<Filter>Plugins\PixelShader\Source\PixelShader\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\PixelShader\Source\PixelShader\Private\PixelShaderUsageExample.cpp">
+			<Filter>Plugins\PixelShader\Source\PixelShader\Private</Filter>
+		</ClCompile >
+		<Filter Include="Plugins\PixelShader\Source\PixelShader\Public">
+			<UniqueIdentifier>{B9D782B6-F608-4FE0-A5E5-FFF7A35AC123}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\PixelShader\Source\PixelShader\Public\PixelShaderUsageExample.h">
+			<Filter>Plugins\PixelShader\Source\PixelShader\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\RuntimeMeshComponent\Source">
+			<UniqueIdentifier>{E7D9E897-48D5-49D3-860B-C430DC54BAAF}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent">
+			<UniqueIdentifier>{441F07CB-E246-4A8D-BF0F-DD784E7011AD}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\RuntimeMeshComponent.Build.cs">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent</Filter>
+		</None >
+		<Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private">
+			<UniqueIdentifier>{FFC54394-6D86-4D0E-87A6-9523570BB0BA}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshComponent.cpp">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshComponentPlugin.cpp">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshComponentPluginPrivatePCH.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshCore.cpp">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshGenericVertex.cpp">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\RuntimeMeshLibrary.cpp">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+		</ClCompile >
+		<ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\TessellationUtilities.cpp">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private\TessellationUtilities.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public">
+			<UniqueIdentifier>{0A7ACA23-79B5-47FF-A631-92F615F9CC28}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshAsync.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshBuilder.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshComponent.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshComponentPlugin.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshCore.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshGenericVertex.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshLibrary.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshProfiling.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshRendering.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshSection.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshSectionProxy.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshUpdateCommands.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public\RuntimeMeshVersion.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponent\Public</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor">
+			<UniqueIdentifier>{479CFB9E-BE2F-47A3-9D70-8F212CFE3CDE}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\RuntimeMeshComponentEditor.Build.cs">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor</Filter>
+		</None >
+		<Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private">
+			<UniqueIdentifier>{ECB5118E-FC73-42C7-8345-9D1B6171338C}</UniqueIdentifier>
+		</Filter>
+		<ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private\RuntimeMeshComponentDetails.cpp">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private\RuntimeMeshComponentDetails.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private\RuntimeMeshComponentEditorPlugin.cpp">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private\RuntimeMeshComponentEditorPrivatePCH.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Private</Filter>
+		</ClInclude >
+		<Filter Include="Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Public">
+			<UniqueIdentifier>{43E13E82-8B46-46C3-833C-C7A8D53092C1}</UniqueIdentifier>
+		</Filter>
+		<ClInclude Include="..\..\Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Public\IRuntimeMeshComponentEditorPlugin.h">
+			<Filter>Plugins\RuntimeMeshComponent\Source\RuntimeMeshComponentEditor\Public</Filter>
+		</ClInclude >
+		<Filter Include="Source\Fireball4_Zavadil">
+			<UniqueIdentifier>{C5132FC0-80B6-4264-B76A-2B580B4D2BAC}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\Fireball4_Zavadil\Fireball4_Zavadil.Build.cs">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\Fireball4_Zavadil\Fireball4_Zavadil.cpp">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fireball4_Zavadil\Fireball4_Zavadil.h">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Fireball4_Zavadil\Fireball4_ZavadilCharacter.cpp">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fireball4_Zavadil\Fireball4_ZavadilCharacter.h">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Fireball4_Zavadil\Fireball4_ZavadilGameMode.cpp">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fireball4_Zavadil\Fireball4_ZavadilGameMode.h">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Fireball4_Zavadil\Fireball4_ZavadilHUD.cpp">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fireball4_Zavadil\Fireball4_ZavadilHUD.h">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Fireball4_Zavadil\Fireball4_ZavadilProjectile.cpp">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Fireball4_Zavadil\Fireball4_ZavadilProjectile.h">
+			<Filter>Source\Fireball4_Zavadil</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>
